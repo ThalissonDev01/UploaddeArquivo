@@ -101,8 +101,12 @@ section .details span {
 }
 
 .uploaded-area {
-    max-height: 150px;
+    max-height: 230px;
     overflow-y: scroll;
+}
+
+.uploaded-area.onprogress {
+    max-height: 150px;
 }
 
 .uploaded-area::-webkit-scrollbar {
